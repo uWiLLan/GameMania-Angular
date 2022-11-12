@@ -1,0 +1,42 @@
+<header>
+    <nav class="container-xxl cabeçalho">
+        <a id="logo" href="index.html"><img src="/assets/img/Logo.png" alt="Logo da Game Mania"></a>
+        <a id="logo-menor" href="index.html"><img src="/assets/img/Logo-menor.png" alt="Logo da Game Mania"></a>
+        <div id="pesquisa" class="pesquisa">
+            <form class="d-flex " role="search">
+              <input id="campo-pesquisa" class="form-control me-2" type="search" placeholder="Buscar na Game Mania" aria-label="Search">
+              <button onclick="pesquisaIdisponivel()" class="btn btn-primary" type="submit">🔎</button>
+            </form>
+        </div>
+        <div class="menu">
+            <a id="login" routerLink="/login">Entrar ou <br> Cadastrar</a>
+            <a id="favorito" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="/assets/img/icone-favorito.png" alt="Icone de Favorito"></a>
+            <a href="#"><img src="/assets/img/icone-carrinho.png" alt="Icone de Carrinho"></a>
+            <a id="ham-menu" class="ham-menu" onclick="mostrarMenu()" href="#"><img src="/assets/img/bars.svg" alt="hamburguer"></a>
+        </div>      
+    </nav>
+    <div id="departamento" class="departamento-cor">
+        <div class="departamento">
+            <a href="#">departamentos </a>
+            <a href="#">promoções</a>
+            <a href="#">pc gamer</a>
+            <a href="#">periféricos</a>
+            <a href="#">monitor</a>
+            <a href="#">jogos</a>
+        </div>
+    </div>
+    <div class="hamConteudo" id="hamConteudo">
+        <div>
+            <div>
+                <a routerLink="/login">entrar ou cadastrar</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">favoritos</a>
+            </div>
+            <a href="#">departamentos </a>
+            <a href="#">promoções</a>
+            <a href="#">pc gamer</a>
+            <a href="#">periféricos</a>
+            <a href="#">monitor</a>
+            <a href="#">jogos</a>                          
+        </div>    
+    </div>
+</header>

@@ -1,0 +1,19 @@
+<app-header></app-header>
+<main class="corpo">
+    <section class="container-xxl login-grid">
+        <div class="login-contorno login">
+            <h1>entrar</h1> 
+            <form #userform="ngForm" (ngSubmit)="receberDados()">
+                <label for="email"></label>
+                <input name="email" type="email" id="E-mail" placeholder="E-mail" [(ngModel)]="userModel.email">
+
+                <label for="senha"></label>
+                <input name="senha" type="password" id="Senha" placeholder="Senha" [(ngModel)]="userModel.password">
+
+                <div class="botao-login">
+                    <input class="btn btn-primary" type="submit" id="btn-enviar" name="btn-enviar" required>
+                </div>   
+            </form>   
+        </div>
+    </section> 
+</main>

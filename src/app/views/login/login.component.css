@@ -1,0 +1,47 @@
+.login-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login {
+    width: 400px;
+    margin: 150px auto;
+}
+
+.login-contorno{
+    background-color: #84a5ff;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 40px 30px;
+}
+
+.login h1 {
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login input {
+    font-family: 'Roboto', sans-serif;    
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.botao-login input {
+    background-color: #00A2E8;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+}
+
+@media screen and (max-width: 575px){
+    .login-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .login {
+        width: 100%;
+        margin: 30px;
+    }
+}

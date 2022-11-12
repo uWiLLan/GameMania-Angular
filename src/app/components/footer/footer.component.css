@@ -1,0 +1,37 @@
+footer {
+    background-color: #84a5ff;
+    width: 100%;
+    justify-content: baseline;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-conteudos {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.rodape-conteudos a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 18px;
+}
+
+.rodape-logo a {
+    height: 95%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+@media screen and (max-width: 575px){
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+}

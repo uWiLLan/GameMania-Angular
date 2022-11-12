@@ -1,0 +1,73 @@
+.banner {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 375px;
+    margin-bottom: 30px;
+}
+
+.banner0 {
+    background-image: url(/assets/img/banner0.png);
+}
+
+.banner1 {
+    background-image: url(/assets/img/banner1.png);
+}
+
+.banner2 {
+    background-image: url(/assets/img/banner2.png);
+}
+
+.botao-destaque {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.botao-destaque a {
+    background-color: #00A2E8;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 20px;
+}
+
+.titulo-produto h2  {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.produto {
+    width: 240px; 
+    margin: 30px auto;
+}   
+
+.row a {
+    text-decoration: none;
+}
+
+.produto img{
+    background-color: #D6EDFF;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.produto {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao-produtos a{
+    background-color: #00A2E8;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;    
+    font-size: 20px;
+    width: 100%;
+}
